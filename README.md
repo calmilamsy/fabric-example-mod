@@ -21,10 +21,10 @@ You will want to use the [Cursed Fabric MultiMC Instance](https://github.com/cal
 
 ## Common Issues
 
-**maven.glass-launcher.net timed out or returned an error!**
+**maven.glass-launcher.net timed out or returned an error!**  
 Contact calmilamsy in the ModStation discord about it.
 
-**I cant import anything from Minecraft/One of my dependencies arent able to be imported!**
+**I cant import anything from Minecraft/One of my dependencies arent able to be imported!**  
 Go into `File > Project Structure...` and go into the `Project` tab and make sure you have got JDK 8 selected.  
 If you dont have JDK 8, then [download it here](https://www.oracle.com/uk/java/technologies/javase/javase-jdk8-downloads.html) (Requires an Oracle account).
 
