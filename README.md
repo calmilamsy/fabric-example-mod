@@ -34,6 +34,9 @@ Just go into `C:\users\<username>\.gradle\caches` (`~/.gradle/caches` on other O
 **My Minecraft run profile is missing from the top right!**  
 Go into `Run Configurations > Edit...` and click the dropdown for applications. Click on minecraft and press OK. Both client and server run profiles should both in the rop right now.
 
+**Fabric crashes with "locked filesystem" or similar!**  
+Your run configurations are broken. Delete your server and client run configuration, reload gradle, and then restart intellij.
+
 **I moved my project and everything broke!**  
 Go into run configurations and double check your `VM Options` and `Working Directory` parameters.
 
